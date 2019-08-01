@@ -1,0 +1,114 @@
+CREATE (b:Att0MeasurableAttributeInt {object_name : "BD-W-110", ObjectUID:"B3Q1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (c:Att0MeasurableAttributeInt {object_name : "BD-D-110", ObjectUID:"B3e1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (d:Att0MeasurableAttributeInt {object_name : "BD-W-30", ObjectUID:"BLV1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (e:Att0MeasurableAttributeInt {object_name : "BD-D-30", ObjectUID:"BPT1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (f:Att0MeasurableAttributeInt {object_name : "BD-W-60", ObjectUID:"BTR1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (g:Att0MeasurableAttributeInt {object_name : "BD-D-60", ObjectUID:"BTf1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (h:Att0MeasurableAttributeInt {object_name : "BD-W-80", ObjectUID:"BXd1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (i:Att0MeasurableAttributeInt {object_name : "BD-D-80", ObjectUID:"Bbb1UkvBZwjw9D" , owning_user:"prasad" })
+CREATE (j:Att0MeasurableAttributeInt {object_name : "WRI", ObjectUID:"D1b1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (k:Att0MeasurableAttributeInt {object_name : "UTR", ObjectUID:"D5Z1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (l:Att0MeasurableAttributeInt {object_name : "TS-LL", ObjectUID:"D9X1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (m:Att0MeasurableAttributeInt {object_name : "FWC", ObjectUID:"Dtf1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (n:Att0MeasurableAttributeInt {object_name : "RWC", ObjectUID:"Dxd1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (o:Att0MeasurableAttributeInt {object_name : "BD-W-121", ObjectUID:"RDW1UoTAZwjw9D" , owning_user:"john" })
+CREATE (p:Att0MeasurableAttributeInt {object_name : "BD-D-121", ObjectUID:"RHU1UoTAZwjw9D" , owning_user:"john" })
+CREATE (q:Att0MeasurableAttributeInt {object_name : "FWC1", ObjectUID:"RLS1UoTAZwjw9D" , owning_user:"john" })
+CREATE (r:Att0MeasurableAttributeInt {object_name : "RWC1", ObjectUID:"RPQ1UoTAZwjw9D" , owning_user:"john" })
+CREATE (s:Att0MeasurableAttributeInt {object_name : "WRI1", ObjectUID:"RPe1UoTAZwjw9D" , owning_user:"john" })
+CREATE (t:Att0MeasurableAttributeInt {object_name : "UTR1", ObjectUID:"RTc1UoTAZwjw9D" , owning_user:"john" })
+CREATE (u:Att0MeasurableAttributeInt {object_name : "TS-LL1", ObjectUID:"RXa1UoTAZwjw9D" , owning_user:"john" })
+CREATE (v:Att0MeasurableAttributeInt {object_name : "PV-TRR1", ObjectUID:"RbY1UoTAZwjw9D" , owning_user:"john" })
+CREATE (w:Att0MeasurableAttributeInt {object_name : "TS-HL1", ObjectUID:"RfW1UoTAZwjw9D" , owning_user:"john" })
+CREATE (x:Att0MeasurableAttributeInt {object_name : "PV-TRR", ObjectUID:"TBV1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (y:Att0MeasurableAttributeInt {object_name : "TS-HL", ObjectUID:"TFT1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (z:Att0MeasurableAttributeInt {object_name : "TVS", ObjectUID:"TJR1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (a1:Att0MeasurableAttributeInt {object_name : "TPF", ObjectUID:"TJf1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (a2:Att0MeasurableAttributeInt {object_name : "TPR", ObjectUID:"TNd1UkPdZwjw9D" , owning_user:"michael" })
+CREATE (a3:Att0MeasurableAttributeInt {object_name : "DCF", ObjectUID:"x_d1UkvBZwjw9D" , owning_user:"prasad" })
+
+CREATE (b1:Att0MeasurableAttributeInt {object_name : "PV-TRR", ObjectUID:"CNX1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b2:Att0MeasurableAttributeInt {object_name : "TS-LL", ObjectUID:"CZX1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b3:Att0MeasurableAttributeInt {object_name : "FWC1", ObjectUID:"CxX1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b4:Att0MeasurableAttributeInt {object_name : "RWC1", ObjectUID:"SBf1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b5:Att0MeasurableAttributeInt {object_name : "TS-HL", ObjectUID:"SNf1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b6:Att0MeasurableAttributeInt {object_name : "BD-W-80", ObjectUID:"ShX1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b7:Att0MeasurableAttributeInt {object_name : "BD-D-80", ObjectUID:"Slf1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b8:Att0MeasurableAttributeInt {object_name : "WRI", ObjectUID:"StX1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b9:Att0MeasurableAttributeInt {object_name : "UTR", ObjectUID:"yQd1UsinZwjw9D" , owning_user:"michael" })
+
+CREATE (b11:Att0MeasurableAttributeInt {object_name : "UTR", ObjectUID:"FeT1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b12:Att0MeasurableAttributeInt {object_name : "BD-D-80", ObjectUID:"Fqc1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b13:Att0MeasurableAttributeInt {object_name : "BD-W-80", ObjectUID:"VKR1UsinZwjw9D" , owning_user:"michael" })
+CREATE (b14:Att0MeasurableAttributeInt {object_name : "WRI", ObjectUID:"VOd1UsinZwjw9D" , owning_user:"michael" })
+
+===================================================================
+CREATE (a:Fnd0LogicalBlockRevision {ObjectUID : "gqa1xc7vZwjw9D" , object_name : "Noise - Exterior", revisionId : "A", owning_user:"michael",  block_name:"Noise - Exterior"})
+CREATE (b:Fnd0LogicalBlockRevision {ObjectUID : "yIZ1UsinZwjw9D" , object_name : "Noise - Exterior", revisionId : "B", owning_user:"michael",  block_name:"Noise - Exterior"})
+CREATE (c:Fnd0LogicalBlockRevision {ObjectUID : "FKf1UsinZwjw9D" , object_name : "Noise - Exterior", revisionId : "C", owning_user:"michael",  block_name:"Noise - Exterior"})
+CREATE (d:Fnd0LogicalBlockRevision {ObjectUID : "W5d1UsinZwjw9D" , object_name : "Noise - Exterior", revisionId : "D", owning_user:"michael",  block_name:"Noise - Exterior"})
+===================================================================
+
+CREATE (d:Att0TargetRevision {ObjectUID : "yqY1UokyZwjw9D" , object_name : "Active Breaking System", block_name:"Noise - Exterior"})
+CREATE (d2:Att0TargetRevision {ObjectUID : "RmR1UokyZwjw9D" , object_name : "Speed_target", block_name:"Noise - Exterior"})
+CREATE (d3:Att0TargetRevision {ObjectUID : "Rsa1U050Zwjw9D" , object_name : "stability", block_name:"Noise - Exterior"})
+
+=====================================================================
+
+MATCH (a9:Fnd0LogicalBlockRevision),(b9:Att0MeasurableAttributeInt)
+WHERE a9.ObjectUID = "gqa1xc7vZwjw9D" AND b9.ObjectUID IN ["B3Q1UkvBZwjw9D" ,"B3e1UkvBZwjw9D" , "BLV1UkvBZwjw9D" ,"BPT1UkvBZwjw9D" , "BTR1UkvBZwjw9D" ,"BTf1UkvBZwjw9D" ,"BXd1UkvBZwjw9D" ,"Bbb1UkvBZwjw9D" ,"D1b1UkPdZwjw9D" ,"D5Z1UkPdZwjw9D" ,"D9X1UkPdZwjw9D" ,"Dtf1UkPdZwjw9D" ,"Dxd1UkPdZwjw9D" , "RDW1UoTAZwjw9D" , "RHU1UoTAZwjw9D" ,"RLS1UoTAZwjw9D" ,"RPQ1UoTAZwjw9D" ,"RPe1UoTAZwjw9D" , "RTc1UoTAZwjw9D" ,"RXa1UoTAZwjw9D" ,"RbY1UoTAZwjw9D" ,"RfW1UoTAZwjw9D" , "TBV1UkPdZwjw9D" , "TFT1UkPdZwjw9D" ,"TJR1UkPdZwjw9D" ,"TJf1UkPdZwjw9D" , "TNd1UkPdZwjw9D" , "x_d1UkvBZwjw9D"]
+CREATE (a9)-[r9:Att0AttrRelation{pUid:"gqa1xc7vZwjw9D",sUid:b9.ObjectUID}]->(b9)
+
+MATCH (a9:Fnd0LogicalBlockRevision),(b9:Att0MeasurableAttributeInt)
+WHERE a9.ObjectUID = "yIZ1UsinZwjw9D" AND b9.ObjectUID IN ["CNX1UsinZwjw9D" ,"CZX1UsinZwjw9D", "CxX1UsinZwjw9D" , "SBf1UsinZwjw9D" , "SNf1UsinZwjw9D" , "ShX1UsinZwjw9D" , "Slf1UsinZwjw9D" , "StX1UsinZwjw9D" ,"yQd1UsinZwjw9D"]
+CREATE (a9)-[r1:Att0AttrRelation{pUid:"y3a1hITNZsi1FB_C",sUid:b9.ObjectUID}]->(b9)
+
+MATCH (e:Fnd0LogicalBlockRevision),(f:Att0MeasurableAttributeInt)
+WHERE e.ObjectUID = "FKf1UsinZwjw9D" AND f.ObjectUID IN ["FeT1UsinZwjw9D" , "Fqc1UsinZwjw9D" ,"VKR1UsinZwjw9D" ,"VOd1UsinZwjw9D"]
+CREATE (e)-[r3:Att0AttrRelation{pUid:"FKf1UsinZwjw9D",sUid:f.ObjectUID}]->(f)
+
+=========================================================================
+
+
+CREATE (b123:Att0MeasurableAttributeInt {object_name : "stability", ObjectUID:"D8S1UokyZwjw9D" , owning_user:"michael" })
+CREATE (b124:Att0MeasurableAttributeInt {object_name : "tyre burst", ObjectUID:"zoZ1UokyZwjw9D" , owning_user:"michael" })
+CREATE (b127:Att0MeasurableAttributeInt {object_name : "speed", ObjectUID:"ChQ1UokyZwjw9D" , owning_user:"michael" })
+CREATE (b125:Att0MeasurableAttributeInt {object_name : "Road Friction", ObjectUID:"hZV1U0bdZwjw9D" , owning_user:"michael" })
+CREATE (b126:Att0MeasurableAttributeInt {object_name : "Deformation", ObjectUID:"xpT1U0bdZwjw9D" , owning_user:"michael" })
+
+MATCH (a20:Att0TargetRevision),(b20:Att0MeasurableAttributeInt)
+WHERE a20.object_name = "Active Breaking System" AND b20.object_name = "stability"
+CREATE (a20)-[r20:Att0AttrRelation]->(b20)
+
+MATCH (a21:Att0TargetRevision),(b21:Att0MeasurableAttributeInt)
+WHERE a21.object_name = "Active Breaking System" AND b21.object_name = "tyre burst"
+CREATE (a21)-[r21:Att0AttrRelation]->(b21)
+
+MATCH (a22:Att0TargetRevision),(b22:Att0MeasurableAttributeInt)
+WHERE a22.object_name = "Speed_target" AND b22.object_name = "speed"
+CREATE (a22)-[r22:Att0AttrRelation]->(b22)
+
+MATCH (a23:Att0TargetRevision),(b23:Att0MeasurableAttributeInt)
+WHERE a23.object_name = "stability" AND b23.object_name = "Deformation"
+CREATE (a23)-[r23:Att0AttrRelation]->(b23)
+
+MATCH (a24:Att0TargetRevision),(b24:Att0MeasurableAttributeInt)
+WHERE a24.object_name = "stability" AND b24.object_name = "Road Friction"
+CREATE (a24)-[r24:Att0AttrRelation]->(b24)
+================================================================================================
+//Create Fnd_Tracelink between Target and block
+MATCH (a25:Att0TargetRevision),(b25:Fnd0LogicalBlockRevision)
+WHERE a25.object_name = "Active Breaking System" AND b25.ObjectUID = "gqa1xc7vZwjw9D"
+CREATE (a25)-[r25:FND_TraceLink]->(b25)
+
+MATCH (a26:Att0TargetRevision),(b26:Fnd0LogicalBlockRevision)
+WHERE a26.object_name = "Speed_target" AND b26.ObjectUID = "yIZ1UsinZwjw9D"
+CREATE (a26)-[r26:FND_TraceLink]->(b26)
+
+MATCH (a27:Att0TargetRevision),(b27:Fnd0LogicalBlockRevision)
+WHERE a27.object_name = "stability" AND b27.ObjectUID = "FKf1UsinZwjw9D"
+CREATE (a27)-[r27:FND_TraceLink]->(b27)
+
+MATCH (a28:Att0TargetRevision),(b28:Fnd0LogicalBlockRevision)
+WHERE a28.object_name = "Active Breaking System" AND b28.ObjectUID = "W5d1UsinZwjw9D"
+CREATE (a28)-[r28:FND_TraceLink]->(b28)
