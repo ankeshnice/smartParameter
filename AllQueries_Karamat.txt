@@ -1,0 +1,41 @@
+//Create Parameters
+CREATE (b:Att0MeasurableAttributeInt {object_name : "kkparam4", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB4", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Parag", owning_group :"Engineering" })
+CREATE (c:Att0MeasurableAttributeInt {object_name : "kkparam2", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB2", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Prasad", owning_group :"Dev" })
+CREATE (d:Att0MeasurableAttributeInt {object_name : "kkparam3", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB3", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Karamat", owning_group :"PV" })
+CREATE (e:Att0MeasurableAttributeInt {object_name : "kkparam5", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB5", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Parag", owning_group :"Engineering" })
+CREATE (f:Att0MeasurableAttributeInt {object_name : "kkparam6", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB6", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Parag", owning_group :"Engineering" })
+CREATE (g:Att0MeasurableAttributeInt {object_name : "kkparam1", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB1", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Parag", owning_group :"Engineering" })
+CREATE (h:Att0MeasurableAttributeInt {object_name : "kkparam7_Target", att0AttrDefRev : "j4Z1wmbbZsi1FB",  ObjectUID:"Scd1xax_Zsi1FB17", att0Goal:"5",att0Max:"9",att0Min : "4" , owning_user:"Parag", owning_group :"Engineering" })
+================================================================================================
+//Create Blocks
+CREATE (a:Fnd0LogicalBlockRevision {ObjectUID : "y3a1hITNZsi1FB_A" , object_name : "Wheel", revisionId : "A", owning_user:"Parag", owning_group :"Engineering"})
+CREATE (b:Fnd0LogicalBlockRevision {ObjectUID : "y3a1hITNZsi1FB_B" , object_name : "Wheel", revisionId : "B", owning_user:"Parag", owning_group :"Engineering"})
+CREATE (c:Fnd0LogicalBlockRevision {ObjectUID : "y3a1hITNZsi1FB_C" , object_name : "Wheel", revisionId : "C", owning_user:"Parag", owning_group :"Engineering"})
+CREATE (d:Fnd0LogicalBlockRevision {ObjectUID : "y3a1hITNZsi1FB_D" , object_name : "Wheel", revisionId : "D", owning_user:"Parag", owning_group :"Engineering"})
+================================================================================================
+//Create target
+CREATE (d:Att0TargetRevision {ObjectUID : "target1_uid" , revisionId : "A", object_name : "Speed_Target", owning_user:"Parag", owning_group :"Engineering"})
+================================================================================================
+//Create Att0AttrRelations between block and parameters
+MATCH (a:Fnd0LogicalBlockRevision),(b:Att0MeasurableAttributeInt)
+WHERE a.ObjectUID = "y3a1hITNZsi1FB_A" AND b.ObjectUID IN ["Scd1xax_Zsi1FB1","Scd1xax_Zsi1FB2","Scd1xax_Zsi1FB3","Scd1xax_Zsi1FB4","Scd1xax_Zsi1FB5","Scd1xax_Zsi1FB6" ]
+CREATE (a)-[r1:Att0AttrRelation{pUid:"y3a1hITNZsi1FB_A",sUid:b.ObjectUID}]->(b)
+
+MATCH (a:Fnd0LogicalBlockRevision),(b:Att0MeasurableAttributeInt)
+WHERE a.ObjectUID = "y3a1hITNZsi1FB_B" AND b.ObjectUID IN ["Scd1xax_Zsi1FB1","Scd1xax_Zsi1FB2","Scd1xax_Zsi1FB5","Scd1xax_Zsi1FB6" ]
+CREATE (a)-[r1:Att0AttrRelation{pUid:"y3a1hITNZsi1FB_B",sUid:b.ObjectUID}]->(b)
+
+MATCH (a:Fnd0LogicalBlockRevision),(b:Att0MeasurableAttributeInt)
+WHERE a.ObjectUID = "y3a1hITNZsi1FB_C" AND b.ObjectUID IN ["Scd1xax_Zsi1FB1" ]
+CREATE (a)-[r1:Att0AttrRelation{pUid:"y3a1hITNZsi1FB_C",sUid:b.ObjectUID}]->(b)
+================================================================================================
+//Create Att0AttrRelations between target and parameter
+MATCH (a:Att0TargetRevision),(b:Att0MeasurableAttributeInt)
+WHERE a.object_name = "Speed_Target" AND b.object_name = "kkparam7_Target"
+CREATE (a)-[r1:Att0AttrRelation]->(b)
+================================================================================================
+//Create Fnd_Tracelink between Target and block
+MATCH (a:Att0TargetRevision),(b:Fnd0LogicalBlockRevision)
+WHERE a.object_name = "Speed_Target" AND b.revisionId = "A"
+CREATE (a)-[r1:FND_TraceLink]->(b)
+================================================================================================
